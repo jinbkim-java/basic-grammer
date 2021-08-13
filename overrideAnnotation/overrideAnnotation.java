@@ -25,7 +25,7 @@ class Student extends Man {
 	}
 }
 
-public class overrideAnnotation {
+public class OverrideAnnotation {
 	public static void main(String[] args) {
 		Man m = new Man("jinbkim");
 		Student s = new Student("hjung", 100);

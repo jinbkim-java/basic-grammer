@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Arrays;
 import java.util.ListIterator;
 
-public class list {
+public class ListClass {
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<>();  // ArrayList 기본생성자
 		// 리스트에 객체 저장
