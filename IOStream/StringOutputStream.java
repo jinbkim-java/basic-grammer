@@ -18,7 +18,7 @@ public class StringOutputStream {
     try(BufferedWriter out2 = new BufferedWriter(new FileWriter("data2.txt"))){
       out2.write(ks, 0, ks.length());
       out2.newLine();  // 개행 삽입
-      out2.write(es, 0, ks.length());
+      out2.write(es, 0, es.length());
     }
     catch(IOException e){
       e.printStackTrace();
